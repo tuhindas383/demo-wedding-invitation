@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="bn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#8f1d22">
+  <meta name="description" content="একটি আধুনিক Bengali traditional digital wedding invitation.">
+  <title>শুভ বিবাহ — ডিজিটাল নিমন্ত্রণ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Noto+Serif+Bengali:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="loader" class="loader">
+    <div class="loader-art">🪔</div>
+    <p>নিমন্ত্রণের দরজা খুলছে...</p>
+  </div>
+
+  <div id="welcome" class="welcome">
+    <div class="welcome-card">
+      <div class="mini-alpana">✦</div>
+      <p class="eyebrow">শুভ বিবাহ</p>
+      <h1>সাদর নিমন্ত্রণ</h1>
+      <p id="welcomeGuest">আপনাকে ও আপনার পরিবারকে</p>
+      <button id="enterBtn" class="gold-btn">নিমন্ত্রণে প্রবেশ করুন <span>→</span></button>
+      <small>সঙ্গীত চালু করতে প্রবেশ করুন</small>
+    </div>
+  </div>
+
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Home">শুভ বিবাহ</a>
+    <button id="musicBtn" class="icon-btn" aria-label="Music">♫</button>
+  </header>
+
+  <main id="home">
+    <section class="hero section">
+      <div class="hero-pattern"></div>
+      <div class="hero-copy">
+        <span class="eyebrow">আপনাকে ও আপনার পরিবারকে</span>
+        <h1>সাদর<br><em>নিমন্ত্রণ</em></h1>
+        <p class="guest-line"><span id="guestName">প্রিয় অতিথি</span>,<br>আমাদের শুভ বিবাহে আপনাকে আন্তরিক আমন্ত্রণ।</p>
+        <div class="countdown" id="countdown"></div>
+      </div>
+      <a id="heroArtLink" class="art-link hero-art" href="#" target="_self">
+        <img src="assets/couple.svg" alt="বর ও কনের অলংকরণ">
+      </a>
+      <div class="scroll-hint">নিচে দেখুন <span>↓</span></div>
+    </section>
+
+    <section class="intro section cream">
+      <div class="section-label">মঙ্গলাচরণ</div>
+      <h2>শুভ কাজে শুভ সূচনা</h2>
+      <img class="divider" src="assets/alpana-divider.svg" alt="">
+      <a class="art-link wide-art" data-link-key="ganeshLink" href="#" target="_self">
+        <img src="assets/ganesh.svg" alt="গণেশের অলংকরণ">
+      </a>
+      <p class="lead">দুই পরিবারের ভালোবাসা, আশীর্বাদ আর আপনাদের উপস্থিতিতেই আমাদের এই বিশেষ দিন পূর্ণতা পাবে।</p>
+    </section>
+
+    <section class="couple section red-panel">
+      <div class="section-label light">দুই পরিবার · এক বন্ধন</div>
+      <h2>শুভ্রাংশু <span>&</span> শ্রেয়সী</h2>
+      <p>একটি নতুন পথচলার গল্প শুরু হতে চলেছে...</p>
+      <div class="names-card">
+        <div><b>বর</b><strong>শুভ্রাংশু</strong><small>সেন পরিবার</small></div>
+        <div class="heart">♥</div>
+        <div><b>কনে</b><strong>শ্রেয়সী</strong><small>মুখার্জী পরিবার</small></div>
+      </div>
+    </section>
+
+    <section class="story section cream">
+      <div class="section-label">আমাদের গল্প</div>
+      <h2>একটু আমাদের কথা</h2>
+      <p class="lead">চেনা থেকে পরিচয়, পরিচয় থেকে ভালোবাসা—আর সেই ভালোবাসারই আজ শুভ পরিণয়।</p>
+      <div class="story-grid">
+        <div class="story-item"><span>01</span><b>প্রথম দেখা</b><p>একটি সাধারণ দিন, অসাধারণ একটি শুরু।</p></div>
+        <div class="story-item"><span>02</span><b>পথচলা</b><p>হাজার ব্যস্ততার মাঝেও পাশাপাশি থাকা।</p></div>
+        <div class="story-item"><span>03</span><b>শুভ পরিণয়</b><p>দুটি পরিবারের আশীর্বাদে নতুন অধ্যায়।</p></div>
+      </div>
+    </section>
+
+    <section class="rituals section">
+      <div class="section-label">অনুষ্ঠান</div>
+      <h2>শুভ মুহূর্তগুলি</h2>
+      <div class="timeline">
+        <article class="event-card">
+          <a class="art-link event-art" data-link-key="haldiLink" href="#"><img src="assets/haldi.svg" alt="গায়ে হলুদ"></a>
+          <div><small>১২ ডিসেম্বর · সন্ধ্যা ৬টা</small><h3>গায়ে হলুদ</h3><p>হলুদের রঙে রাঙা হোক আনন্দের দিন।</p></div>
+        </article>
+        <article class="event-card reverse">
+          <a class="art-link event-art" data-link-key="weddingLink" href="#"><img src="assets/wedding-ritual.svg" alt="শুভ বিবাহ"></a>
+          <div><small>১৪ ডিসেম্বর · রাত ৭টা</small><h3>শুভ বিবাহ</h3><p>শুভ লগ্নে দুই প্রাণের বন্ধন।</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="venue section cream">
+      <div class="section-label">স্থান</div>
+      <h2>বিবাহ বাসর</h2>
+      <div class="venue-card">
+        <div class="venue-pin">⌖</div>
+        <h3>“মায়া বাড়ি”</h3>
+        <p>গেট ১, ১৯২D, নেতাজি সুভাষচন্দ্র বসু RD,<br>নেতাজি নগর, কলকাতা, পশ্চিমবঙ্গ 700040</p>
+        <a id="mapBtn" class="gold-btn" href="#" target="_blank" rel="noopener">Google Maps-এ পথ দেখুন →</a>
+      </div>
+      <div class="map-placeholder">
+        <div class="map-road r1"></div><div class="map-road r2"></div><div class="map-road r3"></div>
+        <div class="map-pin">📍</div>
+        <span>আপনার আসল Google Maps link এখানে বসবে</span>
+      </div>
+    </section>
+
+    <section class="gallery section">
+      <div class="section-label">স্মৃতি</div>
+      <h2>আমাদের কিছু মুহূর্ত</h2>
+      <div class="gallery-grid">
+        <a class="gallery-item tall" href="assets/gallery-1.svg"><img src="assets/gallery-1.svg" alt="গ্যালারি ১"></a>
+        <a class="gallery-item" href="assets/gallery-2.svg"><img src="assets/gallery-2.svg" alt="গ্যালারি ২"></a>
+        <a class="gallery-item" href="assets/gallery-3.svg"><img src="assets/gallery-3.svg" alt="গ্যালারি ৩"></a>
+        <a class="gallery-item wide" href="assets/gallery-4.svg"><img src="assets/gallery-4.svg" alt="গ্যালারি ৪"></a>
+      </div>
+    </section>
+
+    <section class="rsvp section cream" id="rsvp">
+      <div class="section-label">নিমন্ত্রণের উত্তর</div>
+      <h2>আপনি আসছেন তো?</h2>
+      <p class="lead">আপনার উপস্থিতির খবর জানালে আমাদের আয়োজন আরও সুন্দরভাবে সাজাতে পারব।</p>
+      <form id="rsvpForm" class="rsvp-form">
+        <label>আপনার নাম<input name="name" id="rsvpName" required placeholder="নাম লিখুন"></label>
+        <label>আপনি কি আসবেন?
+          <select name="status" required><option value="">একটি বেছে নিন</option><option value="yes">অবশ্যই আসছি ❤️</option><option value="no">আসতে পারছি না</option></select>
+        </label>
+        <label>কতজন আসবেন?<input name="guests" type="number" min="1" max="20" value="1"></label>
+        <label>খাবারের পছন্দ<select name="food"><option>আমিষ</option><option>নিরামিষ</option><option>দুটোই</option></select></label>
+        <label>আপনার শুভেচ্ছা<textarea name="message" rows="3" placeholder="নবদম্পতির জন্য কিছু লিখুন..."></textarea></label>
+        <button class="gold-btn" type="submit">আমার উত্তর পাঠান ♥</button>
+        <p id="formStatus" class="form-status" role="status"></p>
+      </form>
+    </section>
+
+    <section class="blessing section red-panel">
+      <div class="section-label light">আশীর্বাদ</div>
+      <h2>আপনাদের ভালোবাসাই<br>আমাদের উপহার</h2>
+      <a class="art-link wide-art" data-link-key="blessingLink" href="#"><img src="assets/blessings.svg" alt="আশীর্বাদের অলংকরণ"></a>
+      <p>আপনাদের আগমন ও আশীর্বাদের অপেক্ষায় রইলাম।</p>
+    </section>
+  </main>
+
+  <nav class="bottom-nav">
+    <a href="#home">⌂<span>হোম</span></a>
+    <a href="#rsvp">♥<span>RSVP</span></a>
+    <a href="#" id="bottomMap">⌖<span>স্থান</span></a>
+    <a href="#rsvp">✉<span>নিমন্ত্রণ</span></a>
+  </nav>
+
+  <audio id="weddingMusic" loop preload="none">
+    <source src="assets/wedding-music.wav" type="audio/wav">
+  </audio>
+
+  <script src="js/config.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
