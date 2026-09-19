@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650">
+<rect width="900" height="650" rx="36" fill="#c98654"/>
+<circle cx="220" cy="180" r="105" fill="#f0d39b" opacity=".35"/>
+<circle cx="700" cy="430" r="150" fill="#f0d39b" opacity=".22"/>
+<path d="M100 500 Q250 360 390 500 Q540 350 800 500 L800 650 L100 650Z" fill="#f0d39b" opacity=".22"/>
+<rect x="120" y="110" width="660" height="430" rx="26" fill="none" stroke="#f0d39b" stroke-width="8" opacity=".8"/>
+<text x="450" y="330" text-anchor="middle" font-family="serif" font-size="58" fill="#f0d39b">প্রথম দেখা</text>
+<text x="450" y="395" text-anchor="middle" font-family="sans-serif" font-size="24" fill="#f0d39b" opacity=".9">আপনার পছন্দের ছবি এখানে বসান</text>
+</svg>

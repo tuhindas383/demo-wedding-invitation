@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 900">
+<defs>
+ <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#ead5b4"/><stop offset="1" stop-color="#b97845"/></linearGradient>
+ <filter id="s"><feDropShadow dx="0" dy="8" stdDeviation="8" flood-opacity=".22"/></filter>
+</defs>
+<rect width="800" height="900" rx="40" fill="url(#bg)"/>
+<path d="M85 760 Q120 120 400 80 Q680 120 715 760" fill="none" stroke="#e9d9b9" stroke-width="22"/>
+<path d="M120 120 Q180 55 245 115 M680 120 Q620 55 555 115" fill="none" stroke="#e9d9b9" stroke-width="9"/>
+<!-- foliage -->
+<g fill="#4f7b48" opacity=".95"><path d="M80 700 Q30 620 95 570 Q130 640 80 700"/><path d="M720 700 Q770 620 705 570 Q670 640 720 700"/><path d="M110 250 Q45 210 80 145 Q150 170 110 250"/><path d="M690 250 Q755 210 720 145 Q650 170 690 250"/></g>
+<!-- groom -->
+<g filter="url(#s)">
+ <circle cx="350" cy="300" r="92" fill="#8d5a45"/>
+ <path d="M275 295 Q285 200 350 195 Q420 205 430 295 Q385 260 350 260 Q315 260 275 295" fill="#221b1a"/>
+ <path d="M315 315 Q350 335 385 315" fill="none" stroke="#3c1f1b" stroke-width="8" stroke-linecap="round"/>
+ <path d="M245 410 Q350 350 455 410 L485 710 L215 710 Z" fill="#8f1d22"/>
+ <path d="M250 420 L350 520 L450 420" fill="none" stroke="#d9aa5b" stroke-width="12"/>
+ <path d="M310 415 L350 490 L390 415" fill="#7e151b"/>
+ <path d="M325 490 L350 530 L375 490" fill="none" stroke="#e7c071" stroke-width="9"/>
+</g>
+<!-- bride -->
+<g filter="url(#s)">
+ <circle cx="505" cy="300" r="92" fill="#9b6049"/>
+ <path d="M425 300 Q435 190 510 190 Q585 200 595 305 Q560 255 510 260 Q460 255 425 300" fill="#211a1a"/>
+ <path d="M470 320 Q505 340 540 320" fill="none" stroke="#3c1f1b" stroke-width="8" stroke-linecap="round"/>
+ <path d="M395 410 Q505 350 615 410 L700 760 L310 760 Z" fill="#b8242c"/>
+ <path d="M400 425 Q505 520 610 425" fill="none" stroke="#f2c95f" stroke-width="18"/>
+ <path d="M360 500 Q505 610 650 500" fill="none" stroke="#f0b84d" stroke-width="15"/>
+ <circle cx="505" cy="410" r="20" fill="#d9a13b"/>
+ <path d="M450 250 Q505 160 560 250" fill="none" stroke="#e9c56c" stroke-width="12"/>
+</g>
+<!-- small alpana -->
+<g fill="none" stroke="#f5e8ca" stroke-width="4" opacity=".9">
+ <circle cx="400" cy="820" r="42"/><path d="M400 775 L400 865 M355 820 L445 820 M370 790 L430 850 M430 790 L370 850"/>
+</g>
+</svg>
